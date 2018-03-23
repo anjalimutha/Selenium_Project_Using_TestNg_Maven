@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="password" value="umEtUbu"/>
+    <parameter name="invalidUsername" value="mnsgshs"/>
+    <parameter name="invalidPassword" value="jumSbdajb"/>
+    <parameter name="URL" value="http://www.demo.guru99.com/V4/"/>
+    <parameter name="username" value="mngr123497"/>
+    <classes>
+      <class name="testScripts.CreateNewCustomer">
+        <methods>
+          <include name="TC_01_Positive"/>
+          <include name="cleanUpBrowser"/>
+          <include name="TC_02_Negative"/>
+          <include name="browserSetUp"/>
+        </methods>
+      </class> <!-- testScripts.CreateNewCustomer -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

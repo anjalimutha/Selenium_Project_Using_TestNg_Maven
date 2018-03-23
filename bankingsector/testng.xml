@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="URL" value="http://www.demo.guru99.com/V4/"/>
+	<parameter name="username" value="mngr123497"/>
+ 	<parameter name="password" value="umEtUbu"/>
+	<parameter name="invalidUsername" value="invalid"/>
+	<parameter name="invalidPassword" value="invalidpwd"/>
+	<classes>
+     <class name="testScripts.ValidateLoginPage"/> 
+	 <class name="testScripts.CreateNewCustomer" />
+	 <class name="testScripts.EditCustomer"/>  
+	 </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
